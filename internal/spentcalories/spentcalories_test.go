@@ -16,6 +16,7 @@ func TestSpentCaloriesSuite(t *testing.T) {
 	suite.Run(t, new(SpentCaloriesTestSuite))
 }
 
+// ok
 func (suite *SpentCaloriesTestSuite) TestParseTraining() {
 	tests := []struct {
 		name         string
@@ -198,6 +199,7 @@ func (suite *SpentCaloriesTestSuite) TestParseTraining() {
 	}
 }
 
+// ok
 func (suite *SpentCaloriesTestSuite) TestDistance() {
 	tests := []struct {
 		name     string
@@ -239,6 +241,7 @@ func (suite *SpentCaloriesTestSuite) TestDistance() {
 	}
 }
 
+// ok
 func (suite *SpentCaloriesTestSuite) TestMeanSpeed() {
 	tests := []struct {
 		name      string
@@ -313,6 +316,7 @@ func (suite *SpentCaloriesTestSuite) TestMeanSpeed() {
 	}
 }
 
+//fail
 func (suite *SpentCaloriesTestSuite) TestRunningSpentCalories() {
 	tests := []struct {
 		name     string
